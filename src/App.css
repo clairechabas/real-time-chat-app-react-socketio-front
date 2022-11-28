@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code'),
+    url(./assets/fonts/FiraCode-Light.ttf) format('truetype');
+  font-weight: 'light';
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code'),
+    url(./assets/fonts/FiraCode-Regular.ttf) format('truetype');
+  font-weight: 'regular';
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code'),
+    url(./assets/fonts/FiraCode-Medium.ttf) format('truetype');
+  font-weight: 'medium';
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code'),
+    url(./assets/fonts/FiraCode-SemiBold.ttf) format('truetype');
+  font-weight: 'semi-bold';
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: local('Fira Code'),
+    url(./assets/fonts/FiraCode-Bold.ttf) format('truetype');
+  font-weight: 'bold';
+  font-style: normal;
+}
+
+.app {
+  font-family: 'Fira Code', 'sans-serif';
+  min-height: 100vh;
+  /* Full-screen bacground-image: */
+  /* Credit: Photo by Florian Krumm (https://unsplash.com/@floriankrumm) on Unsplash (https://unsplash.com). */
+  background-image: url('./assets/img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.btn {
+  border: none;
+  /* background-color: hsl(137, 76%, 52%); */
+  background-color: hsl(37, 91%, 65%);
+  color: #fff;
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(37, 91%, 55%);
+}
